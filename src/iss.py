@@ -1,5 +1,5 @@
 import pygame
-from src.settings import ISS_X, ISS_Y, DOCKING_PORT_OFFSET_X, DOCKING_PORT_OFFSET_Y
+from settings import ISS_X, ISS_Y, DOCKING_PORT_OFFSET_X, DOCKING_PORT_OFFSET_Y
 
 class ISS:
     def __init__(self):

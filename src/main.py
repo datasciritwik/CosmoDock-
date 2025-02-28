@@ -1,15 +1,15 @@
 import pygame
 import sys
 import os
-from src.settings import (
+from settings import (
     SCREEN_WIDTH, SCREEN_HEIGHT, TITLE, FPS, BLACK, WHITE,
     STATE_MENU, STATE_PLAYING, STATE_SUCCESS, STATE_FAILURE, STATE_PAUSED,
     THRUST_SOUND, WARNING_SOUND, DOCK_SUCCESS_SOUND, CRASH_SOUND, SPACE_AMBIENCE_SOUND,
     EARTH_POSITION, EARTH_RADIUS
 )
-from src.game_state import GameState
-from src.physics import calculate_distance
-from src.utils import (
+from game_state import GameState
+from physics import calculate_distance
+from utils import (
     load_image, load_sound, create_stars_background, 
     create_missing_directories, create_placeholder_assets
 )

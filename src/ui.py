@@ -1,5 +1,5 @@
 import pygame
-from src.settings import (
+from settings import (
     WHITE, BLACK, RED, GREEN, YELLOW, SCREEN_WIDTH, SCREEN_HEIGHT,
     MAX_DOCKING_SPEED, INITIAL_FUEL
 )

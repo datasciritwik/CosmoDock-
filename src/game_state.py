@@ -1,15 +1,15 @@
-from src.settings import (
+from settings import (
     STATE_MENU, STATE_PLAYING, STATE_SUCCESS, STATE_FAILURE, STATE_PAUSED,
     SCREEN_WIDTH, SCREEN_HEIGHT
 )
-from src.rocket import Rocket
-from src.iss import ISS
-from src.ui import UI
-from src.physics import (
+from rocket import Rocket
+from iss import ISS
+from ui import UI
+from physics import (
     calculate_distance, check_collision, calculate_approach_speed,
     check_docking_alignment
 )
-from src.settings import (
+from settings import (
     MAX_DOCKING_SPEED, DOCKING_ALIGNMENT_THRESHOLD, DOCKING_DISTANCE_THRESHOLD
 )
 

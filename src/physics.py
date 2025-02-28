@@ -1,5 +1,5 @@
 import math
-from src.settings import GRAVITY, EARTH_POSITION, EARTH_RADIUS
+from settings import GRAVITY, EARTH_POSITION, EARTH_RADIUS
 
 def apply_gravity(obj, distance_factor=1.0):
     """

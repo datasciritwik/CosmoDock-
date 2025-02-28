@@ -1,10 +1,10 @@
 import pygame
 import math
-from src.settings import (
+from settings import (
     THRUST_POWER, ROTATION_SPEED, INITIAL_FUEL, 
     FUEL_CONSUMPTION_RATE, RCS_THRUST_POWER, RCS_FUEL_CONSUMPTION
 )
-from src.physics import apply_gravity, apply_thrust
+from physics import apply_gravity, apply_thrust
 
 class Rocket:
     def __init__(self, x, y):
