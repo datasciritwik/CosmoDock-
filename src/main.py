@@ -121,7 +121,8 @@ class Game:
         
         # Play warnings if needed
         if self.game_state.ui.speed_warning or self.game_state.ui.fuel_warning:
-            if 'warning' in self.game_state.sounds and not pygame.mixer.find_channel().get_busy():
+            channel = pygame.mixer.find_channel()
+            if 'warning' in self.game_state.sounds and channel and not channel.get_busy():
                 self.game_state.sounds['warning'].play()
     
     def draw(self):
