@@ -1,0 +1,6 @@
+--2025-02-28 10:02:49--  https://eu-central.storage.cloudconvert.com/tasks/053d5ac8-cb7f-4614-a7ae-8e9b4c007d02/space_ambience.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256
+Resolving eu-central.storage.cloudconvert.com (eu-central.storage.cloudconvert.com)... 57.129.64.105, 57.129.64.102, 57.129.64.97, ...
+Connecting to eu-central.storage.cloudconvert.com (eu-central.storage.cloudconvert.com)|57.129.64.105|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-02-28 10:02:49 ERROR 403: Forbidden.
+
